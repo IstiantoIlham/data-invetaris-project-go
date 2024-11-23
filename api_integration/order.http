@@ -1,0 +1,11 @@
+###
+POST http://localhost:3000/api/orders
+Content-Type: application/json
+
+{
+  "product_id" : 1,
+  "quantity" : 1
+}
+
+###
+GET http://localhost:3000/api/orders/1

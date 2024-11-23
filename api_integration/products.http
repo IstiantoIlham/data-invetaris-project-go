@@ -1,0 +1,32 @@
+###
+GET http://localhost:3000/api/products
+
+###
+GET http://localhost:3000/api/products/1
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "asd",
+  "description": "asds",
+  "price": 123,
+  "category": "ads"
+}
+
+###
+PUT http://localhost:3000/api/products/1
+Content-Type: application/json
+
+{
+  "name": "asd",
+  "description": "asd",
+  "price": 123,
+  "category": "ads"
+}
+
+###
+DELETE http://localhost:3000/api/products/2
+
+### You can try http://localhost:3000/api/products/upload-image/{product id} to upload a image to server in postman using form-data
